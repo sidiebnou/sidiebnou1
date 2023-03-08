@@ -1,0 +1,51 @@
+.contact{
+    background: #3b8d3e;
+    color:rgb(255, 255, 255);
+    border: white;
+}
+.contact:hover{
+    background-color:rgb(65, 218, 218);
+}
+body{
+    background:rgb(76, 125, 173);
+    font-family: helvetica Neue, Helvetica;
+    margin: 10;
+    padding: 10;
+    color:rgb(255, 255, 255)
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+li{
+    margin: 20px;
+    display: inline-block;
+
+}
+footer{
+    position: fixed;
+    bottom: 0em;
+    width: 100%;
+    background: rgb(10, 25, 47);
+    padding: 10px 10px;
+    border: 10px, #3b8d3e;
+}
+#copy{
+    color: red;
+}
+
+a:active{
+    text-decoration: underline;
+    display: green;
+}
+/*
+relative position keep its position. but can move around its original position 
+*/
+#sidi{
+    border-left: 30%;
+    border-right: 30%;
+    text-align: center;
+    padding-left: 10px;
+    background-color: #3b8d3e;
+
+}
